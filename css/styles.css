@@ -169,22 +169,3 @@ float:none;
 margin-bottom: 30px;
 }
 }
-/*
-  .middle-boxes {
-    align-items: center;
-    display: flex;
-    flex-flow: column;
-    float: none;
-    margin: auto;
-    width: 100%;
-  }
-
-  .box {
-    margin: 10px;
-    width: 65%;
-  }
-
-  .supervisor, .calculator {
-    width:100%;
-  }*/
-}
