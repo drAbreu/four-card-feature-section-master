@@ -40,7 +40,6 @@ img {
   margin: 0 auto 0 auto;
   right: 170px;
   padding: 10px 30px 0 30px;
-  position: relative;
   text-align: left;
   width: 300px;
 }
@@ -79,7 +78,6 @@ img {
   height: 250px;
   left: 170px;
   margin: 0 auto 0 auto;
-  position: relative;
   padding: 10px 30px 0 30px;
   text-align: left;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -96,6 +94,8 @@ img {
   border-top-color: hsl(0, 78%, 62%);
   height: 250px;
   margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 10px 30px 0 30px;
   text-align: left;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -168,4 +168,23 @@ margin-top: 30px;
 float:none;
 margin-bottom: 30px;
 }
+}
+/*
+  .middle-boxes {
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    float: none;
+    margin: auto;
+    width: 100%;
+  }
+
+  .box {
+    margin: 10px;
+    width: 65%;
+  }
+
+  .supervisor, .calculator {
+    width:100%;
+  }*/
 }
